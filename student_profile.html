@@ -1,0 +1,94 @@
+<html>
+<style>
+    .box {
+        height: 400px;
+        width: 500px;
+        box-shadow: 4px 4px 10px gray;
+        position: relative;
+        top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bullets {
+        float: left;
+        font-size: 1.25rem;
+        margin-right: 10px;
+        color: lightseagreen;
+    }
+
+    .main_icon{
+        float: left;
+        font-size: 2.5rem;
+        margin-right: 10px;
+        color: white;
+    }
+
+    .icon {
+        float: left;
+        font-size: 1.25rem;
+        margin-right: 10px;
+        margin-left: 30px;
+        color: lightseagreen;
+    }
+
+    p.name {
+        font-size: 17px;
+        font-weight: bold;
+        color: #2c6776;
+    }
+
+    p.name span {
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    #student{
+        font-size: 20px;
+    }
+
+    .head{
+        position: relative;
+        height: 50px;
+        width: 100%;
+        background-color: #2c6776;
+        color: white;
+    }
+
+    .sp{
+        position: relative;
+        top: 5px;
+        left: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .alignname{
+        margin-left: 60px;
+    }
+
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo1.jpe" style="float: left; width: 75px; height: 75px;">
+        <a href="#default" class="logo">Dharmsinh Desai University</a>
+        <div class="header-right">
+        <a class="active" href="#home">Home</a>
+        <a href="show_result.php">Show Result</a>
+        <a href="logout.php" onclick = "return checklogout()">Logout</a>
+        <script>
+            function checklogout(){
+                return confirm('Are you sure you want to log out');
+            }
+        </script>
+      </div>
+    </div>
+    
+</body>
+
+</html>

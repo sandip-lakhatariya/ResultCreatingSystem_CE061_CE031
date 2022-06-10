@@ -1,0 +1,44 @@
+.box {
+    background-color: #f1f1f1;
+    float: left; 
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 40px; 
+    margin: 30px;
+    margin-top: 95px;
+    box-shadow: 4px 4px 10px gray;
+}
+.align {
+    margin-left: 340px;
+}
+
+.box:hover {
+    outline: 3px solid #2c6776;
+}
+img.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height:140px;
+    border-radius: 50%;
+    border: 2px solid #2c6776 ;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    margin-left: 20px;
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}

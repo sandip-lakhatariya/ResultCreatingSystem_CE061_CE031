@@ -1,0 +1,21 @@
+ <html>
+     <head>
+        <link rel="stylesheet" href="login.css">
+     </head>
+     <body>
+        <form class="container" action=<?php echo $_SERVER['PHP_SELF']; ?> method="post">
+            <div class="imgcontainer">
+                <img src="login.jpeg" alt="Avatar" class="avatar">
+            </div>
+            <label>User id</label><br>
+            <input type="text" placeholder="Enter UserId" id="uid" name="uid" required><br><br>
+            <label>Password</label><br>
+            <input type="password"placeholder="Enter Password" id="pwd" name="pwd" required><br><br>
+            <label>Captcha</label><br>
+            <input type="text" placeholder="Enter Captcha" id="captcha" name="captcha"><br><br>
+            <img src="captcha.php" class="imgcap">
+            <button type="submit">Login</a></button>
+            <button type="reset" class="cancelbtn">Cancel</button>
+         </form>
+     </body>
+ </html>
